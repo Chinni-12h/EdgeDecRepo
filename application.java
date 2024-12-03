@@ -18,6 +18,7 @@ class Main {
     int result = obj.addNumbers(num1, num2);
     System.out.println("Sum is: " + result);
   }
+
   #feature202 changes by pavan for the report module in oct2023
   public int addNumbers(int a, int b) {
     int sum = a + b;
@@ -30,4 +31,23 @@ public static void main(String[] args) {
     System.out.println("Sum is: " + result);
 }
 #end of feature202 code
+
+  #feature201 changes by pavan for the report module in oct2023
+  public static int square(int num) {
+
+    // return statement
+    return num * num;
+  }
+
+  public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+  end of feature201 code
+
 }
